@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Crack']
+
+roboflow:
+  workspace: core-labeling
+  project: crack-detection-gpbys
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/core-labeling/crack-detection-gpbys/dataset/2
